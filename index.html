@@ -1,63 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" href="./images/logo.svg">
-  <link rel="stylesheet" href="./css/main.css">
-  <title>Обучения</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/logo.svg">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Обучения</title>
+    <style type="text/tailwindcss"></style>
 </head>
+
 <body>
+    <header class="site-header">
+        <div class="containers header">
+            <a class="header__logo-link" href="/">
+                <img src="./images/logo.svg" alt="Site Logo" width="156" height="111">
+            </a>
 
-  <header class="site-header">
-    <div class="container header">
+            <nav class="header__navbar">
+                <a href="#">О нашей школе</a>
+                <a href="#">Преимущества</a>
+                <a href="#">Классы</a>
+                <a href="#">Контакты</a>
+            </nav>
 
-      <a class="header__logo-link" href="/">
-        <img src="./images/logo.svg" alt="Site Logo" width="156" height="111">
-      </a>
-
-      <nav class="header__navbar">
-        <a href="#">О нашей школе</a>
-        <a href="#">Преимущества</a>
-        <a href="#">Классы</a>
-        <a href="#">Контакты</a>
-      </nav>
-
-      <div class="header__btns-wrapper">
-        <button class="header__contact-btn">Связаться с нами</button>
-
-        <button class="header__mobile-phone-img">
-          <img src="./images/mobile-phone-img.svg" alt="Mobile phone img" width="30" height="30">
-        </button>
-
-        <button class="header__menu-btn">
-          <img src="./images/menu.svg" alt="Menu Img" width="30" height="30">
-        </button>
-      </div>
-
-    </div>
-
-    <div class="menu">
-      <div class="menu__top-wrapper">
-        <a href="/">
-          <img src="./images/logo.svg" alt="Site Logo" width="80" height="57">
-        </a>
-
-        <button class="menu__close-btn">
-          <img src="./images/close-icon.svg" alt="Close img" width="17" height="17">
-        </button>
-      </div>
-
-      <div class="menu__links-wrapper">
-        <a href="#">О нашей школе</a>
-        <a href="#">Преимущества</a>
-        <a href="#">Классы</a>
-        <a href="#">Контакты</a>
-      </div>
-    </div>
-
-  </header>
-
-  <script src="./js/main.js"></script>
+            <div class="header__btns-wrapper">
+                <button class="header__contact-btn">Связаться с нами</button>
+                <button class="header__mobile-phone-img">
+                    <img src="./images/Call.svg" alt="Mobile phone img" width="30" height="30">
+                </button>
+                <button class="header__menu-btn">
+                    <img src="./images/Group 1728.svg" alt="Menu Img" width="30" height="30">
+                </button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="!pt-[180px] overflow-hidden relative !pb-[142px] bg-[#fafafa]">
+            <div class="containers">
+                <div class="max-w-[568px] flex flex-col gap-10">
+                    <h2 class="font-bold text-[40px] leading-[100%] text-[#000]">
+                        <span class="text-[#5855E7]">The Best Future Stars</span> – мы заботимся о будущем вашего
+                        ребенка
+                    </h2>
+                    <p class="font-normal text-[18px] leading-[100%] text-[#000000]">
+                        Наши опытные преподаватели сделают процесс обучения максимально интересным и эффективным для
+                        вашего ребенка
+                    </p>
+                    <div class="flex items-center justify-between">
+                        <a class="!w-[47%] font-medium text-[36px] border-[3px] border-transparent leading-[100%] text-white py-[7px] text-center bg-[#6347EB] rounded-[10px]"
+                            href="tel:">
+                            Позвонить
+                        </a>
+                        <button
+                            class="!w-[47%] font-medium text-[36px] leading-[100%] border-[3px] border-[#6347EB] text-black py-[7px] text-center bg-transparent rounded-[10px]">
+                            Подробнее
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <img class="absolute right-0 top-0" src="./images/hero-img.png" alt="bola-img">
+        </section>
+        <section class="">
+            <div class="containers">
+                <div class="pt-[184px] pb-[214px] flex gap-[46px]">
+                    <img src="./images/about-us-img.png " alt="o-nas" width="534" height="492">
+                    <div class="pt-[30px]">
+                        <h2 class="font-bold text-[40px] leading-[100%] text-[#000000] pb-[48px]">О нас</h2>
+                        <p class="font-normal text-[24px] leading-[100%] text-[#000000]">Для комфортного образования и
+                            времяпровождения, мы объединяем
+                            детей небольшими комфортными группами, которые разделяются по возрастным категориям, а также
+                            и по образовательным направлениям. Индивидуальный подход к каждому ребёнку. В классе не
+                            более 10 учеников. Углублённое изучение английского языка.Кроме этого, мы отправляем наших
+                            детей на языковую практику за рубеж. Обучение с 8.00 до 17.00;
+                            3-х разовое сбалансированное питание ( по желанию), выполнение домашних заданий. <br> <br>
+                            Все условия и комфорт для ваших детей!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-[#5855E7] text-white">
+            <div class="containers">
+                <h2 class="text-[40px] font-bold leading-[100%] pt-[73px] text-center">Наши преимущества</h2>
+                <div class="flex flex-wrap gap-[80px] justify-center pt-[92px] pb-[75px]">
+                    <div class="max-w-[261px]">
+                        <img class="m-auto" src="./images/advantage-1.svg" alt="class" width="225" height="225">
+                        <h3 class="font-bold text-[24px] leading-[100%] pb-[20px] text-center">3-х разовое питание </h3>
+                        <p class="font-normal text-[18px] leading-[100%] text-center">Для комфотрного времяпровождения в
+                            нашей школе, мы готовим вкусную и
+                            полезную еду 3 раза в
+                            день</p>
+                    </div>
+                    <div class="max-w-[375px]">
+                        <img class="m-auto" src="./images/advantage-2.svg" alt="class" width="225" height="225">
+                        <h3 class="font-bold text-[24px] leading-[100%] pb-[20px] text-center">IT технологии</h3>
+                        <p class="font-normal text-[18px] leading-[100%] text-center">21 век- это век информационных
+                            технологий. Ваш ребенок сможет
+                            научиться азам
+                            програмированния, тенденциям в мире гаджетов и профессиям будущего</p>
+                    </div>
+                    <div class="max-w-[288px]">
+                        <img class="m-auto" src="./images/advantage-3.svg" alt="class" width="225" height="225">
+                        <h3 class="font-bold text-[24px] leading-[100%] pb-[20px] text-center">Ментальная арифметика
+                        </h3>
+                        <p class="font-normal text-[18px] leading-[100%] text-center">Мы обучим детей быстро вычислять в
+                            уме сложные математические
+                            рассчёты</p>
+                    </div>
+                    <div class="max-w-[354px]">
+                        <img class="m-auto" src="./images/advantage-4.svg" alt="class" width="225" height="225">
+                        <h3 class="font-bold text-[24px] leading-[100%] pb-[20px] text-center">Общение на английском
+                            языке </h3>
+                        <p class="font-normal text-[18px] leading-[100%] text-center">Для свободного общения на
+                            английском языке, у нас предусматривается
+                            целый день Speaking</p>
+                    </div>
+                    <div class="max-w-[302px]">
+                        <img class="m-auto" src="./images/advantage-5.svg" alt="class" width="225" height="225">
+                        <h3 class="font-bold text-[24px] leading-[100%] pb-[20px] text-center">Иностранные языки </h3>
+                        <p class="font-normal text-[18px] leading-[100%] text-center">Наши высококвалифицированные
+                            учителя обучат детей: Английскому,
+                            русскому, арабскому и
+                            китайскому языку</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
 </body>
+
 </html>
